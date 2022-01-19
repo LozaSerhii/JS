@@ -9,7 +9,7 @@ function f()
         }
         else
         {
-            throw new Error('Error: parameter type is not a Number');
+            throw new Error('Error: all parameters type should be a Number');
         }
     }
     return result;
