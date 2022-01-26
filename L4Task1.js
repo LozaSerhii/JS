@@ -1,5 +1,5 @@
 function forEach(arr, callback) {
-	if(Array.isArray(arr) === true &&  )
+	if(Array.isArray(arr) === true)
     {
         if(typeof callback=== 'function')
         {
