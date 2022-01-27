@@ -1,7 +1,7 @@
 function arrayFill(item,sizeArr)
 {
     let result = [];
-    if(typeof item === 'number' || typeof item==='string' || typeof item === 'object' || Array.isArray === item)
+    if(typeof item === 'number' || typeof item==='string' || typeof item === 'object' || Array.isArray(item) === true)
     {
         if(typeof sizeArr==='number')
         {
